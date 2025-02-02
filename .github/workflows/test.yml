@@ -3,6 +3,7 @@ name: learn-github-actions
 on: [push]
 
 jobs:
-  runs-on: ubuntu-latest
-  steps:
-    - run: echo "Hello World"
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello World"
